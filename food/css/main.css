@@ -16,7 +16,7 @@ body{
     background-position: 40% 56%;
     color: black;
     text-align: center;
-    padding-bottom: 4em;
+    padding-bottom: 16em;
 }
 
 header{
@@ -50,7 +50,7 @@ h1 span {
 h1 span::before {
     content: ' ';
     position: absolute;
-    width: 3em;
+    width: 2.1em;
     background: #00BFFF;
     height: .4em;
     bottom: 0;
@@ -95,6 +95,10 @@ input[type=text] {
     margin-top: .3em;
 }
 
+.button-container {
+    padding-top: 5em;
+}
+
 input[type=button] {
     background-color:#00BFFF;
     border: none;
@@ -111,10 +115,6 @@ input[type=button]:hover{
     background-color: #00bfffad;
 }
 
-.authentic {
-    margin: 0;
-}
-
 .right-col {
     text-align: center;
     margin: 3em 1em;
@@ -123,21 +123,6 @@ input[type=button]:hover{
 h2 {
     text-transform: uppercase;
     position: relative;
-}
-
-h2::before {
-    content: ' ';
-    position: absolute;
-    width: 8em;
-    background: #00BFFF;
-    height: .4em;
-    bottom: 0;
-    z-index: -1;
-    margin-left: -.3em;
-}
-
-img {
-    width: 100%;
 }
 
 p {
